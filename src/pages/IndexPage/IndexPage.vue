@@ -1,10 +1,10 @@
 <!--
  * @Author: Li-HONGYAO
  * @Date: 2021-05-21 23:26:16
- * @LastEditTime: 2021-05-21 23:47:03
+ * @LastEditTime: 2021-05-22 09:40:32
  * @LastEditors: Li-HONGYAO
  * @Description: 
- * @FilePath: /多多汇宝/src/pages/IndexPage/IndexPage.vue
+ * @FilePath: \多多汇宝\src\pages\IndexPage\IndexPage.vue
 -->
 
 
@@ -16,6 +16,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
+
   setup() {},
 });
 </script>
