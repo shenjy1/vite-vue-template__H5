@@ -1,12 +1,13 @@
 <!--
  * @Author: Li-HONGYAO
  * @Date: 2021-03-26 22:43:41
- * @LastEditTime: 2021-05-22 00:12:36
+ * @LastEditTime: 2021-05-24 13:38:09
  * @LastEditors: Li-HONGYAO
  * @Description: 
- * @FilePath: /多多汇宝/src/App.vue
+ * @FilePath: \vite-vue-template__H5\src\App.vue
 -->
 <template>
+  <!-- 页面展示 -->
   <router-view />
 </template>
 
@@ -19,3 +20,4 @@ export default defineComponent({
   },
 });
 </script>
+

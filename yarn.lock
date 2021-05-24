@@ -12,6 +12,11 @@
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.14.3.tgz#9b530eecb071fd0c93519df25c5ff9f14759f298"
   integrity sha512-7MpZDIfI7sUC5zWo2+foJ50CSI5lcqDehZ0lVgIhSi4bFEk94fLAKlF3Q0nzSQQ+ca0lm+O6G9ztKVBeu8PMRQ==
 
+"@babel/standalone@^7.13.12":
+  version "7.14.3"
+  resolved "https://registry.nlark.com/@babel/standalone/download/@babel/standalone-7.14.3.tgz#0b65ed93c6b5a911d1e62dc10e7ea73d201d6783"
+  integrity sha1-C2Xtk8a1qRHR5i3BDn6nPSAdZ4M=
+
 "@babel/types@^7.12.0", "@babel/types@^7.13.0":
   version "7.14.2"
   resolved "https://registry.npmjs.org/@babel/types/-/types-7.14.2.tgz#4208ae003107ef8a057ea8333e56eb64d2f6a2c3"
@@ -51,6 +56,17 @@
   version "1.1.2"
   resolved "https://registry.npmjs.org/@vant/use/-/use-1.1.2.tgz#d35265e05df88a47b04196a308efb5e89e44ca10"
   integrity sha512-s4YO6zqJ3NlGeAZ104exb0c/KvlXB908pOhWhCyhfedVBn1eBnKH401ildK0sttazmq0CH8jme6mnw2ZzZvutw==
+
+"@vitejs/plugin-legacy@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.nlark.com/@vitejs/plugin-legacy/download/@vitejs/plugin-legacy-1.4.0.tgz#1cf30419d75e841d3fe31384b84179d69b5b8a3c"
+  integrity sha1-HPMEGddehB0/4xOEuEF51ptbijw=
+  dependencies:
+    "@babel/standalone" "^7.13.12"
+    core-js "^3.8.2"
+    magic-string "^0.25.7"
+    regenerator-runtime "^0.13.7"
+    systemjs "^6.8.3"
 
 "@vitejs/plugin-vue@^1.2.2":
   version "1.2.2"
@@ -256,6 +272,11 @@ copy-anything@^2.0.1:
   integrity sha512-GK6QUtisv4fNS+XcI7shX0Gx9ORg7QqIznyfho79JTnX1XhLiyZHfftvGiziqzRiEi/Bjhgpi+D2o7HxJFPnDQ==
   dependencies:
     is-what "^3.12.0"
+
+core-js@^3.8.2:
+  version "3.12.1"
+  resolved "https://registry.nlark.com/core-js/download/core-js-3.12.1.tgz?cache=0&sync_timestamp=1620508113239&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcore-js%2Fdownload%2Fcore-js-3.12.1.tgz#6b5af4ff55616c08a44d386f1f510917ff204112"
+  integrity sha1-a1r0/1VhbAikTThvH1EJF/8gQRI=
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -469,6 +490,11 @@ lg-cookie@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/lg-cookie/-/lg-cookie-1.0.1.tgz#b4e4e86f636e2467634d858580d32f94666a0890"
   integrity sha512-3n85fh/z80W28lpd7W9ufHb7qEXl86flNohJpQJg/Y7Fzr9ioK8TI1tqf+fmyG6bInkftPCO1mK6aTIzxmtowQ==
+
+lg-schemes@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.nlark.com/lg-schemes/download/lg-schemes-1.0.8.tgz#70b80e9ac31c827c5fe955c0fe447e60d5f90e59"
+  integrity sha1-cLgOmsMcgnxf6VXA/kR+YNX5Dlk=
 
 lg-tools@^1.0.21:
   version "1.0.21"
@@ -695,6 +721,11 @@ readable-stream@^2.0.2, readable-stream@~2.3.6:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
+regenerator-runtime@^0.13.7:
+  version "0.13.7"
+  resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha1-ysLazIoepnX+qrrriugziYrkb1U=
+
 resolve@^1.19.0:
   version "1.20.0"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
@@ -768,6 +799,11 @@ string_decoder@~1.1.1:
   integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
   dependencies:
     safe-buffer "~5.1.0"
+
+systemjs@^6.8.3:
+  version "6.9.0"
+  resolved "https://registry.nlark.com/systemjs/download/systemjs-6.9.0.tgz#f01a0093d4d70332fff59f2e5ff385de28284ff5"
+  integrity sha1-8BoAk9TXAzL/9Z8uX/OF3igoT/U=
 
 to-fast-properties@^2.0.0:
   version "2.0.0"

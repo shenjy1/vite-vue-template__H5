@@ -1,5 +1,5 @@
 {
-  "name": "ddhb",
+  "name": "vite-vue-template__h5",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --mode dev",
@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "lg-cookie": "^1.0.1",
+    "lg-schemes": "^1.0.8",
     "lg-tools": "^1.0.21",
     "vant": "^3.0.16",
     "vue": "^3.0.5",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^15.6.0",
+    "@vitejs/plugin-legacy": "^1.4.0",
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^10.2.5",

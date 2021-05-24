@@ -1,14 +1,15 @@
 /*
  * @Author: Li-HONGYAO
  * @Date: 2021-05-21 23:20:41
- * @LastEditTime: 2021-05-22 09:18:11
+ * @LastEditTime: 2021-05-24 14:40:08
  * @LastEditors: Li-HONGYAO
  * @Description:
- * @FilePath: \多多汇宝\vite.config.ts
+ * @FilePath: \vite-vue-template__H5\vite.config.ts
  */
 import { defineConfig } from "vite";
 import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";
+import legacy from "@vitejs/plugin-legacy";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,7 +19,14 @@ export default defineConfig({
       "@": resolve("./src"),
       comps: resolve("./src/components"),
       pages: resolve("./src/pages"),
+      utils: resolve("./src/utils"),
     },
   },
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    // 浏览器兼容
+    legacy({
+      targets: ["defaults", "not IE 11"],
+    }),
+  ],
 });

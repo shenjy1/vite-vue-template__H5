@@ -1,17 +1,13 @@
 /*
  * @Author: Li-HONGYAO
  * @Date: 2021-03-08 20:50:30
- * @LastEditTime: 2021-03-25 15:14:34
+ * @LastEditTime: 2021-05-24 13:41:44
  * @LastEditors: Li-HONGYAO
  * @Description:
- * @FilePath: \Technician\src\api\index.ts
+ * @FilePath: \vite-vue-template__H5\src\api\index.ts
  */
 
-import * as auth from "./auth";
-import * as appt from "./appt";
-import * as user from './user';
+import * as test from './test';
 export default {
-  auth,
-  appt,
-  user
+  test
 };

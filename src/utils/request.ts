@@ -1,10 +1,10 @@
 /*
  * @Author: Li-HONGYAO
  * @Date: 2021-03-27 10:14:34
- * @LastEditTime: 2021-05-22 00:20:55
+ * @LastEditTime: 2021-05-24 15:17:22
  * @LastEditors: Li-HONGYAO
  * @Description:
- * @FilePath: /多多汇宝/src/utils/request.ts
+ * @FilePath: \vite-vue-template__H5\src\utils\request.ts
  */
 
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";

@@ -1,10 +1,10 @@
 /*
  * @Author: Li-HONGYAO
  * @Date: 2021-03-26 22:51:19
- * @LastEditTime: 2021-05-22 00:19:58
+ * @LastEditTime: 2021-05-24 13:40:12
  * @LastEditors: Li-HONGYAO
  * @Description:
- * @FilePath: /多多汇宝/src/typings/index.d.ts
+ * @FilePath: \vite-vue-template__H5\src\typings\index.d.ts
  */
 
 import { AxiosRequestConfig } from "axios";
@@ -31,7 +31,7 @@ declare global {
     wx: any;
     AMap: any;
   }
-  namespace DDHB {
+  namespace GD {
     interface BaseResponse<T = any> {
       status: number;
       data: T;
