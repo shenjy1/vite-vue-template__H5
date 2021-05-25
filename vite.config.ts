@@ -1,7 +1,7 @@
 /*
  * @Author: Li-HONGYAO
  * @Date: 2021-05-21 23:20:41
- * @LastEditTime: 2021-05-24 14:40:08
+ * @LastEditTime: 2021-05-25 10:35:11
  * @LastEditors: Li-HONGYAO
  * @Description:
  * @FilePath: \vite-vue-template__H5\vite.config.ts
@@ -29,4 +29,6 @@ export default defineConfig({
       targets: ["defaults", "not IE 11"],
     }),
   ],
+  
+  
 });

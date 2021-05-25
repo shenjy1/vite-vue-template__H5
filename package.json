@@ -2,7 +2,7 @@
   "name": "vite-vue-template__h5",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --mode dev",
+    "dev": "vite --mode dev --host 192.168.101.31 --port 8888",
     "build": "vue-tsc --noEmit && vite build --mode production",
     "test": "vue-tsc --noEmit && vite build --mode test",
     "serve": "vite preview"
