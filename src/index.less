@@ -10,7 +10,7 @@
 .ff-DIN-Bold { font-family: 'DIN-Bold'; }
 .ff-DIN-Regular { font-family: 'DIN-Regular'; }
 
-// 兼容iphoneX顶部
+// 兼容iphoneX底部
 @supports (bottom: env(safe-area-inset-bottom)){
 	body {
     padding-bottom: constant(safe-area-inset-bottom);
@@ -22,7 +22,7 @@
 html, body, #app, .page {
 	width: 100%;
 	height: 100%;
-	background: #fff;
+	background: #F9F9F9;
 }
 .page, .tab-page {
 	font-family: PingFang SC;
@@ -547,7 +547,9 @@ input { outline: none; border: none; }
 }
 
 
-// 微信公众号文章内图片样式处理
+/**
+ 微信公众号文章内图片样式处理
+*/
 .rich-html * { max-width: 100% !important; }
 .rich-html img { height: auto !important; }
 
