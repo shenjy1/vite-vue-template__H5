@@ -1,21 +1,33 @@
 /*
  * @Author: Li-HONGYAO
  * @Date: 2021-05-21 23:24:50
- * @LastEditTime: 2021-05-22 00:18:01
+ * @LastEditTime: 2021-06-01 21:40:54
  * @LastEditors: Li-HONGYAO
  * @Description:
- * @FilePath: /多多汇宝/src/router/index.ts
+ * @FilePath: /vite-vue-template__H5/src/router/index.ts
  */
 
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
 const routes: Array<RouteRecordRaw> = [
   {
+    path: "/",
+    redirect: "/index-page",
+  },
+  {
     path: "/index-page",
-    name: "indexPage",
-    component: () => import("../pages/IndexPage/IndexPage.vue"),
+    name: "index-page",
+    component: () => import("pages/IndexPage/index.vue"),
     meta: {
       title: "首页",
+    },
+  },
+  {
+    path: "/download",
+    name: "download",
+    component: () => import("pages/Download/index.vue"),
+    meta: {
+      title: "多多汇宝",
     },
   },
 ];

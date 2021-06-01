@@ -501,6 +501,11 @@ lg-tools@^1.0.21:
   resolved "https://registry.npmjs.org/lg-tools/-/lg-tools-1.0.21.tgz#d6659acfb60ecd0dbbd488d7f4fb55f57a20fb8f"
   integrity sha512-4Ql1SewGbga3Ft3d9/+FsAl+7+PkFyf7hX567MwtIh50bTUXxjq+H96bdiGi3mXD+BhiTNjHJZ7VSgYj+6+ybw==
 
+lg-validator@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/lg-validator/-/lg-validator-1.0.2.tgz#7959730bff51876784887223ce049bbcf4162b75"
+  integrity sha512-ippBrfY1j5EQtp3H1tdkf7itJRa46hvUuJDX3TlWmORklmUm03ICXodauc8lF7wqr0X+BBjZFreaAxAbKv/aHg==
+
 listenercount@~1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/listenercount/-/listenercount-1.0.1.tgz#84c8a72ab59c4725321480c975e6508342e70937"
